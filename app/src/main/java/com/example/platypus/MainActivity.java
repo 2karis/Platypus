@@ -12,7 +12,7 @@ package com.example.platypus;
 
 public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
-
+    TextView tvEmail;
     public void onStart() {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
@@ -23,11 +23,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mAuth = FirebaseAuth.getInstance();
+        tvEmail = (TextView) findViewById(R.id.mainEmail);
 
 
     }
     public void updateUI(FirebaseUser user){
-
+        tvEmail.setText("hello " +user.getEmail());
     }
 
 }
