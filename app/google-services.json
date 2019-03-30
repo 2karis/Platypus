@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "148357601081",
+    "firebase_url": "https://platypus-41370.firebaseio.com",
+    "project_id": "platypus-41370",
+    "storage_bucket": "platypus-41370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148357601081:android:25bf9f08cdd27c65",
+        "android_client_info": {
+          "package_name": "com.example.platypus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148357601081-u5vm691nn0qmnp2kv5toftb1720kfp06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHTsiD7dpeAIi_Mhdg5RTSP30yzHbG_OY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
