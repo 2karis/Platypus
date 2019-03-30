@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
     EditText etUsername, etPassword;
-    Button loginBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
         etUsername = (EditText) findViewById(R.id.username);
         etPassword = (EditText) findViewById(R.id.password);
 
-        loginBtn = (Button) findViewById(R.id.login);
+        final  Button loginBtn = (Button) findViewById(R.id.login);
 
         final TextView RegisterLink = (TextView) findViewById(R.id.create);
 
